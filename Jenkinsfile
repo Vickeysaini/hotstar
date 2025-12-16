@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/Aseemakram19/hotstar-kubernetes.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/Vickeysaini/hotstar.git'
             }
         }
         stage("Sonarqube Analysis "){
