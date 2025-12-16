@@ -105,7 +105,7 @@ eksctl create cluster --name cluster-name  \
 `	
 ## Mumbai: <br/>
 `
-eksctl create cluster --name cloudaseem-cluster4 --region ap-south-1 --node-type t2.medium  --zones ap-south-1a,ap-south-1b
+eksctl create cluster --name hotstar-cluster --region ap-south-1 --node-type t2.medium  --zones ap-south-1a,ap-south-1b
 `
 ## N. Virgina: <br/>
 `
@@ -157,6 +157,6 @@ You have successfully created an EKS cluster with 2 nodes in AWS using eksctl. Y
 ## Step - 4 : After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing ##
 
 ```
-eksctl delete cluster --name cloudaseem-cluster4 --region ap-south-1
+eksctl delete cluster --name hotstar-cluster --region ap-south-1
 
 ```
